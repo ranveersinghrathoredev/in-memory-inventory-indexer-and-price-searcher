@@ -51,8 +51,6 @@ public class Main {
 
             System.out.print("Enter your choice: ");
 
-//            int choice = scanner.nextInt();
-//            scanner.nextLine();
 
             String input = scanner.nextLine();
             int choice;
