@@ -11,7 +11,7 @@ public class RangeSearcher {
 
         int low = 0;
         int high = totalItems - 1;
-        // lowerSearchSteps simply counts how many binary-search iterations we perform.
+
         int lowerSearchSteps = 0;
 
         while(low <= high) {
