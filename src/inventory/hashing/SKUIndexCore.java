@@ -56,7 +56,7 @@ public class SKUIndexCore {
             if(current.product.getSku().equals(sku)) {
                 long endTime = System.nanoTime();
                 System.out.printf("\n [!] SEARCH SUCCESSFUL (Custom Hash Table Lookup)\n");
-                System.out.printf("Performance Metric: Checked %d collision node(s).\n", collisionsChecked);
+                System.out.printf(" Performance Metric: Checked %d collision node(s).\n", collisionsChecked);
                 System.out.printf(" Total Execution Time: %d nanoseconds (O(1) Speed).\n",
                         (endTime - startTime));
                 return current.product;
